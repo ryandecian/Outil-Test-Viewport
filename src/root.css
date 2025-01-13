@@ -3,6 +3,7 @@
          /*Couleur des textes général*/
          --backgroundBlack: black;
          --backgroundWhite: white;
+         --backgroundBlue: linear-gradient(135deg, #6a11cb, #2575fc);
 
      /*Couleur des textes du Footer*/
          --Copyright: #ff007f;
@@ -22,4 +23,7 @@
          --h5: calc(var(--font-size-root) - 2px); /*14px*/
          --h6: calc(var(--font-size-root) - 5px); /*11px*/
          --h7: calc(var(--font-size-root) - 7px); /*9px*/
+
+
+         --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

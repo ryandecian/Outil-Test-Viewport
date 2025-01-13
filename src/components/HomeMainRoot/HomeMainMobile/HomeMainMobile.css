@@ -1,1 +1,44 @@
 @import "../../../root.css";
+
+/* Style global pour le composant */
+.HomeMainMobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: var(--backgroundBlue);
+  color: var(--backgroundWhite);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Style pour le titre */
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Style pour les paragraphes */
+.width, .height {
+  font-size: calc(var(--h1) - 4px);
+  margin: 5px 0;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+}
+
+/* Adaptation pour écrans plus petits */
+@media (max-width: 480px) {
+  .title {
+    font-size: var(--h2);
+  }
+
+  .width, .height {
+    font-size: var(--h4);
+    padding: 8px 12px;
+  }
+}
