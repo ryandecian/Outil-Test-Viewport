@@ -3,7 +3,11 @@ import HomeMainRoot from "../components/HomeMainRoot/HomeMainRoot";
 function HomePage() {
     return (
         <>
-             <HomeMainRoot />
+             <header />
+             <main>
+                 <HomeMainRoot />
+             </main>
+             <footer />
         </>
     )
 }

@@ -28,8 +28,10 @@ window.addEventListener("resize", handleResize);
 }, []);
     return (
         <>
-             <p>{`Width = ${dimensions.width}px`}</p>
-             <p></p>
+             <section>
+                 <p>{`Width = ${dimensions.width}px`}</p>
+                 <p></p>
+             </section>
         </>
     )
 }
