@@ -1,5 +1,11 @@
+import HomeMainRoot from "../components/HomeMainRoot/HomeMainRoot";
+
 function HomePage() {
-    return ()
+    return (
+        <>
+             <HomeMainRoot />
+        </>
+    )
 }
 
 export default HomePage;
