@@ -1,7 +1,11 @@
-
+import HomeMainMobile from "./HomeMainMobile/HomeMainMobile";
 
 function HomeMainRoot() {
-    return ()
+    return (
+        <>
+             <HomeMainMobile />
+        </>
+    )
 }
 
 export default HomeMainRoot;
