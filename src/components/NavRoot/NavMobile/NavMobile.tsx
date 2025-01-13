@@ -6,7 +6,7 @@ import linkedin from "../../../assets/data-img/linkedin-icon.png"
 function NavMobile() {
 
     return (
-         <section className="NavMobile">
+         <nav className="NavMobile">
              <div className="ContainerIconNavMobile">
                  <a href="https://github.com/ryandecian">
                      <img src={github} alt="GitHub"/>
@@ -24,7 +24,7 @@ function NavMobile() {
                      <img src={mail} alt="Mail"/>
                  </a>
              </div>
-         </section>
+         </nav>
     )
 }
 
