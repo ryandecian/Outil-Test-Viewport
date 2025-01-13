@@ -1,8 +1,5 @@
 @import "../../../root.css";
 
-/* Import des variables globales */
-@import "../../../root.css";
-
 /* Style global pour le composant */
 .HomeMainMobile {
   display: flex;
@@ -11,8 +8,8 @@
   justify-content: center;
   min-height: 100vh;
   padding: 20px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc);
-  color: white;
+  background: var(--backgroundBlue);
+  color: var(--backgroundWhite);
   font-family: 'Arial', sans-serif;
   text-align: center;
 }
@@ -26,12 +23,12 @@
 
 /* Style pour les paragraphes */
 .width, .height {
-  font-size: 1.2rem;
+  font-size: calc(var(--h1) - 4px);
   margin: 5px 0;
   background: rgba(255, 255, 255, 0.1);
   padding: 10px 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
 }
 
 /* Adaptation pour écrans plus petits */
