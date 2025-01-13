@@ -28,9 +28,10 @@ window.addEventListener("resize", handleResize);
 }, []);
     return (
         <>
-             <section>
+             <section className="title">
+                 <h1>Dimension du viewport de votre appareil</h1>
                  <p>{`Width = ${dimensions.width}px`}</p>
-                 <p></p>
+                 <p>{`Height = ${dimensions.height}px`}</p>
              </section>
         </>
     )

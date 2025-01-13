@@ -1,1 +1,47 @@
 @import "../../../root.css";
+
+/* Import des variables globales */
+@import "../../../root.css";
+
+/* Style global pour le composant */
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Style pour le titre */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Style pour les paragraphes */
+p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Adaptation pour écrans plus petits */
+@media (max-width: 480px) {
+  h1 {
+    font-size: var(--h2);
+  }
+
+  p {
+    font-size: var(--h4);
+    padding: 8px 12px;
+  }
+}
