@@ -1,3 +1,4 @@
+import "./NavMobile.css"
 import mail from "../../../assets/data-img/mail-icon.webp"
 import github from "../../../assets/data-img/github-icon.png"
 import linkedin from "../../../assets/data-img/linkedin-icon.png"
@@ -6,7 +7,7 @@ import linkedin from "../../../assets/data-img/linkedin-icon.png"
 function NavMobile() {
 
     return (
-         <section className="NavMobile">
+         <nav className="NavMobile">
              <div className="ContainerIconNavMobile">
                  <a href="https://github.com/ryandecian">
                      <img src={github} alt="GitHub"/>
@@ -24,7 +25,7 @@ function NavMobile() {
                      <img src={mail} alt="Mail"/>
                  </a>
              </div>
-         </section>
+         </nav>
     )
 }
 
