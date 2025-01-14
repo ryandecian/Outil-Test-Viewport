@@ -1,5 +1,18 @@
 @import "../../../root.css";
 
+.NavMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0rem 0rem 0rem;
+}
+@media (min-width: 768px) {
+    .NavMobile {
+        display: none
+    }
+}
+
 .ContainerIconNavMobile {
     display: flex;
     justify-content: center;

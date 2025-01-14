@@ -1,3 +1,4 @@
+import "./NavMobile.css"
 import mail from "../../../assets/data-img/mail-icon.webp"
 import github from "../../../assets/data-img/github-icon.png"
 import linkedin from "../../../assets/data-img/linkedin-icon.png"
